@@ -46,7 +46,19 @@
                 database administration, software testing, networking, and graphics design.
             </p>
 
-            <a href="#contact" class="btn">Hire Me</a>
+   <div class="button-container">
+
+    <a href="#contact" class="btn">
+        Hire Me
+    </a>
+
+    <a href="cv/Andargachew_Siyoum_CV.pdf"
+       class="btn"
+       download>
+       Download CV
+    </a>
+
+</div>
 
         </div>
 
@@ -95,6 +107,7 @@
     </section>
 
     <!-- Projects -->
+     
    <section id="projects" class="reveal">
 
         <h2>Projects</h2>
@@ -117,58 +130,8 @@
             <p>
                 Built mobile-based maintenance reporting system for users and technicians.
             </p>
-            <div class="project-card">
-
-    <h3>JavaScript Features (Portfolio Code)</h3>
-
-    <pre><code>
-// Hamburger Menu
-function toggleMenu(){
-    document.getElementById("menu").classList.toggle("show");
-}
-
-// Dark Mode
-function toggleDarkMode(){
-    document.body.classList.toggle("dark");
-}
-
-// Typing Animation
-const text = "Software Developer | Software QA Engineer";
-let i = 0;
-
-function typingEffect(){
-    if(i < text.length){
-        document.getElementById("typing").innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typingEffect, 80);
-    }
-}
-
-typingEffect();
-
-// Scroll Reveal Animation
-window.addEventListener("scroll", reveal);
-
-function reveal(){
-    const reveals = document.querySelectorAll(".reveal");
-
-    for(let i = 0; i < reveals.length; i++){
-
-        const windowHeight = window.innerHeight;
-        const elementTop = reveals[i].getBoundingClientRect().top;
-        const elementVisible = 100;
-
-        if(elementTop < windowHeight - elementVisible){
-            reveals[i].classList.add("active");
-        }
-    }
-}
-    </code></pre>
-
+            
 </div>
-
-        </div>
-
     </section>
 
     <!-- Contact -->

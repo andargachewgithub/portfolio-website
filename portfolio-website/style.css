@@ -343,3 +343,22 @@ code{
     font-size:14px;
     line-height:1.5;
 }
+.button-container{
+    margin-top:20px;
+}
+
+.button-container .btn{
+    margin-right:10px;
+}
+.button-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.button-container .btn{
+    display:inline-block;
+}
